@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	A hidden directory ".git" is created. All the meta-data related to
+	the version control function will be stored in the .git directory.
+
+How is the staging area different from the working directory and the r-
+pository? What value do you think it offers?
+
+	It is the middle area between the working directory and the reposi-tory. It can allow you put multiple files you want to commit their
+	changes together in the staging area before committed.
