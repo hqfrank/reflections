@@ -8,3 +8,17 @@ pository? What value do you think it offers?
 
 	It is the middle area between the working directory and the reposi-tory. It can allow you put multiple files you want to commit their
 	changes together in the staging area before committed.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+	I can use git add to add the logical change related file to the staging area, and then use git diff to compare the files between the working directory and the staging area to find out the change I have made on the file. If it has already completed a logical change, I can use git commit to commit that change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When I need to add some experimental features to the program or make another version in different languages. I can esaily switch between different branches through git checkout branchname. Doing something different. Branch helps in collaborating.
+
+How do the diagrams help you visualize the branch structure?
+
+	You can get the mind of how many branches there are, where the branches are located, and identify the parent of each commit.
+	
